@@ -1,0 +1,19 @@
+[project]
+name = "quask-quantum-kernel-search"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sdziura", email = "sabek12@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "quask==2.0.0a1",
+]
+
+[project.scripts]
+quask-quantum-kernel-search = "quask_quantum_kernel_search:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
